@@ -46,19 +46,28 @@ In order to simplify the presentation of findings, it makes sense to divide our 
 Using network analysis, we identified the top (more central) and bottom (less central) senators and bills from the centrality results to perform textual analysis for twitter and bills.
 
 For the Twitter analysis, the comparison between the top 5 and bottom 5 senators showed the following results:
+
 Popularity Statistics: 
+
 * When comparing one of the top central senators with the very bottom, we saw that the top, Senator Richard Blumenthal, had more followers and was more active on twitter than the bottom, Senator Richard Shelby.
+
 Word frequency results:
+
 * The top 25 words between the Top and Bottom Senators seemed to be similar with words such as "rt", "tax", "bill", "senate", "today" and "american". The differences in the top 25 words for the Top group were "act", "trump", "committee" and for the Bottom group were "judge", "kentucky" and "news".
+
 Sentiment Analysis results:
+
 * The sentiment for the Top Senators was more positive and showed 224 positive tweets, 162 neutral tweets and 108 negative tweets. Whereas, the Bottom Senators was extremely neutral and resulted in 27 negative tweets with 156 positive tweets and 311 neutral tweets.
 
 For the Bills analysis, the comparison between the top and bottom bills and further break-down of political parties showed the following results:
+
 Bills Machine learning classification model results: 
+
 * Whe comparing between top and bottom bills, the top had terms that referred to outside countries with words like sanctions", "russian", "federation", "ukraine", and "foreign", while the "less central" legislation had terms that referred to money, like "expenses", "exceed", "expended" and "funds".
 * The model resulted in classifying 6/10 correctly.  The bill texts was not very predictive when classifying whether a given bill would be top or bottom.
 
 Party Machine learning classification model results:
+
 * Whe comparing between republican and democractic bills, the democratic bills seemed to have to do with places such as "sound", "island", "land", "area", "oregon", while the republican bills seemed to be more about the business of legislation with words like "report", "motion", "whereas", "rule", "rules", "congress" and "senate".  In addition, there were differences in the democratic use of the word "native" and the republican use of the word "indian."
 * The model results were not very predictive on classifying whether a given bill for republican or democratic would be top or bottom.
 * In the future, we can try to use more text for the classification model to train on.
